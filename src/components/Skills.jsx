@@ -83,7 +83,7 @@ const Skills = () => {
       return (
         <div className='skills' id='skills'>
           <div className='container'>
-            <div className='row'>
+            <div className='row fadeInRight'>
               {skills.length === 0 ? (
                 <h1>No Skills Found</h1>
               ) : (

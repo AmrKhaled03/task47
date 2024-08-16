@@ -48,7 +48,7 @@ const Projects = () => {
   ];
   return (
     <div className="projects" id="projects">
-      <div className="container">
+      <div className="container fadeInLeft">
         {projects.length === 0 ? (
           <>
             {" "}

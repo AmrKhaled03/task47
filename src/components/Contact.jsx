@@ -31,7 +31,7 @@ const{dark}=useContext(TheContext);
   };
   return (
     <div className="contact mb-5" id="contact">
-      <div className="container">
+      <div className="container fadeInRight">
         <div className="row">
           <div className="col-12">
             <h1 className={dark ? 'text-light' : 'text-primary'}>Contact Me</h1>

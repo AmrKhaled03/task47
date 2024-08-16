@@ -10,11 +10,11 @@ const About = () => {
 
         <div className='container '>
       
-<div className='aboutsec'>
+<div className='aboutsec fadeInLeft'>
 <img src={Badge} alt={Badge} className='img-fluid' loading='lazy'/>
 
 </div>
-<div className='aboutsec'>
+<div className='aboutsec fadeInRight'>
 <p className={dark ? 'text-light' : 'text-dark'}>
 As a Software Engineer , my expertise encompasses creating dynamic web applications and mobile solutions, leveraging the power of frameworks like React, Vue.js, and Flutter. Our team consistently delivers robust and scalable platforms, with a keen eye for renewability and efficient tool integration.
 

@@ -35,7 +35,7 @@ const Header = () => {
     <div className="header p-5 my-5" id="header">
       <div className="container">
         <div className="row ">
-          <div className="col-lg-7 col-md-7 col-sm-12  my-5">
+          <div className="col-lg-7 col-md-7 col-sm-12  my-5 fadeInLeft">
             <h1 className={dark ? "p-2 text-light" : "p-2 "}>
               Hello i'm{" "}
               <strong className="text-primary">Amr Khaled Marey</strong>
@@ -61,10 +61,10 @@ const Header = () => {
               {dark ? "Light Mode" : "Dark Mode"}{" "}
             </button>
           </div>
-          <div className="col-lg-3 col-md-3 col-sm-12  my-5 ">
+          <div className="col-lg-3 col-md-3 col-sm-12  my-5 fadeInRight">
             <img src={Badge} alt={Badge} className="img-fluid" loading="lazy" />
           </div>
-          <div className="col-lg-2 col-md-2 col-sm-12 my-5 ">
+          <div className="col-lg-2 col-md-2 col-sm-12 my-5 fadeInRight">
             <ul className="icons">
               <li>
                 <a href="https://www.linkedin.com/in/amr-khaled-marey-16b817228?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app">
