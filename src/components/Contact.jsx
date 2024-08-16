@@ -30,7 +30,7 @@ const{dark}=useContext(TheContext);
     );
   };
   return (
-    <div className="contact mb-5">
+    <div className="contact mb-5" id="contact">
       <div className="container">
         <div className="row">
           <div className="col-12">
